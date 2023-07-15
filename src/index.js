@@ -1,14 +1,17 @@
 
 
-function setup() {
+function setup() 
+{
     createCanvas(windowWidth, windowHeight);
 }
 
-function draw() {
+function draw() 
+{
     background(0);
 }
 
-function windowResized() {
+function windowResized() 
+{
     resizeCanvas(windowWidth, windowHeight);
 }
 
